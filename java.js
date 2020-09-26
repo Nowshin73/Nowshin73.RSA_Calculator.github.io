@@ -61,12 +61,13 @@ function generateD(){
        q = document.getElementById("q").value;
        n = p * q;
 	s = document.getElementById("msg").value;
-      for(i=0; i < s.length ;i++){
+      /*for(i=0; i < s.length ;i++){*/
 		m = s.charCodeAt(i);
 		c = PowerMod(m,e,n);
        document.getElementById("demsg").innerHTML = c;	
-       /*document.getElementById("asc").innerHTML = m;	*/
-        }	   
+       /*document.getElementById("asc").innerHTML = m;
+	  }*/
+        	   
 	}
 
 function PowerMod(x,p,N)

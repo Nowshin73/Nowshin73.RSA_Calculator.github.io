@@ -1,5 +1,5 @@
 .head {
-background-color: #01A9DB;
+background-color:#F78181;
 padding : 5px;
 width:1600px;
 font-size: 25px;
@@ -14,11 +14,11 @@ text-shadow: 2px 3px 5px black;
 }
 .head h3{
 	text-align: center;
-	color: #FFBF00; 
-text-shadow: 2px 3px 5px black;
+	color: black; 
+
 }
 body{
-	background-color:#00FF80;
+  background-color: #F5F6CE;
 	
 	width:100%;
 }
@@ -27,7 +27,7 @@ body{
 	position: absolute;
 	top:200px;
 	left: 300px;
-	 background-color: #F7FE2E;
+	background-color:#F5D0A9;
 	 box-shadow:2px 3px 15px #424242;
   width: 830px;
   height:1200px;
@@ -220,10 +220,10 @@ padding:1px 5px;
 .footer {
 	position:absolute;
 	top:1550px;
-	width:1600px;
+	width:1409px;
 	  padding: 100px; /* Some padding */
 	  text-align: center; /* Center text*/
-	  background: #292525; /* Grey background */
+	 background-color:#A4A4A4; /* Grey background */
 	  font-size:20px;
 	   font-family: Arial, Helvetica, sans-serif;
 	  color:white;
