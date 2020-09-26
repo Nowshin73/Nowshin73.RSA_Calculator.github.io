@@ -2,7 +2,7 @@
 background-color: #01A9DB;
 padding : 5px;
 width:100%;
-font-size: 30px;
+font-size: 25px;
 overflow:hidden;
 box-shadow:1px 2px 5px #424242;
 }
@@ -10,6 +10,11 @@ box-shadow:1px 2px 5px #424242;
 	
 	text-align: center;
 color: white;
+text-shadow: 2px 3px 5px black;
+}
+.head h3{
+	text-align: center;
+	color: #FFBF00;
 text-shadow: 2px 3px 5px black;
 }
 body{
