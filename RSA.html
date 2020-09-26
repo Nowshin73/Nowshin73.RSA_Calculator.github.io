@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> RSA Calculator</title>
+ <link rel="stylesheet" href="style.css" />
+ <script type="text/javascript" src="java.js"></script>
+ </head>
+<body>
+<div class = "head">
+<h1>RSA Calculator</h1>
+</div>
+<div class ="cal">
+<div class = "inputs">
+ <div class = "inp"><input type="text" name="p" id = "p" placeholder="Enter P" size="15"></div>
+ <div class ="inq"><input type="text" name="q" id = "q" placeholder="Enter Q" size="15"></div>
+ <input class = "mul" type="button" value="SET P & Q" onclick="multiply()">
+ </div>
+ <div class = "note">
+ <p>note: P & Q must be prime numbers</p></div>
+ <div class = "N"><p>N = P*Q = <span id = "n"></span></p></div>
+ <div>
+<!--<span id = "n"></span>-->
+</div>
+<div class = "R">
+<p>So, R = (P-1)*(Q-1) = <span id = "r"></span></p></div>
+<div class = "E"><p>Select E such that GCD(E,R) = 1</p>
+</div>
+<div class = "ine"><input type="text" name="p" id = "e" placeholder="Enter E" size="15"></div>
+<input type="button" class = "check" value="Check E is relative prime of R or not" onclick="checkE()">
+  
+<div class = "pr">
+<p><span id = "m"></span></p>
+</div>
+ <input type="button" class ="generated" value="Generate D" onclick="generateD()">
+ <div class = "D">
+	  <p>
+	 <span id = "d"></span>
+	 <span id = "no"></span>
+	 </p>
+ </div>
+ <div class ="msg"><input type="text" name="q" id = "msg" placeholder="Enter Message" size="15"></div>
+ <input type="button" class = "en" value="Encript" onclick="acii()">
+ <input type="button" class = "dc" value="Decript" onclick="decrypt()">
+ <div class = "cipher"><p> Cipher text : <span id = "demsg">
+ 
+ </span></p></div>
+ <!--<span id = "asc">
+ 
+ </span>-->
+ <div class = "decrypt">
+ <p> After Decryption, we get : <!--<span id = "lemsg">
+ </span>-->
+ <span id = "themsg">
+ </span>
+  </p></div>
+</div>
+<div class ="footer">
+</div>
+</body>
+</html>
