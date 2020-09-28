@@ -60,6 +60,7 @@ text-shadow: 2px 3px 5px black;
 border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
+  border: 2px solid #6E6E6E;
 }
 .note p{
 	position: absolute;
@@ -126,6 +127,7 @@ text-shadow: 2px 3px 5px black;
 border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
+  border: 2px solid #6E6E6E;
 }
 .pr p{
 	position: absolute;
@@ -149,6 +151,7 @@ text-shadow: 2px 3px 5px black;
 border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
+   border: 2px solid #6E6E6E;
 }
 .D p{
 	position: absolute;
@@ -190,6 +193,7 @@ text-shadow: 2px 3px 5px black;
 border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
+   border: 2px solid #6E6E6E;
 }
 .cipher p{
 	position: absolute;
@@ -213,6 +217,7 @@ text-shadow: 2px 3px 5px black;
 border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
+   border: 2px solid #6E6E6E;
 }
 .decrypt p{
 	position: absolute;
