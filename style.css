@@ -28,7 +28,7 @@ body{
 	background-color:#F5D0A9;
 	 box-shadow:2px 3px 15px #424242;
   width: 900px;
-  height:2000px;
+  height:1800px;
   padding: 50px;
   margin: 20px;
 }
@@ -264,7 +264,7 @@ padding:1px 5px;
 }
 .footer {
 	position:absolute;
-	top:2350px;
+	top:2150px;
 	width:1409px;
 	  padding: 100px; /* Some padding */
 	  text-align: center; /* Center text*/
