@@ -1,3 +1,19 @@
+function checkPrime(a){
+   for ( c = 2 ; c <= a - 1 ; c++ )
+   { 
+      if ( a%c == 0 )
+     return 0;
+   }
+   return 1;
+}
+function checkPrime1(){
+	num = document.getElementById("num").value;
+	result = checkPrime(num);
+	   if ( result == 1 )
+      document.getElementById("prime").innerHTML = "It's a prime number";
+   else
+       document.getElementById("prime").innerHTML = "It's not a prime number, choose another number";
+}
 function multiply()
 {
         p = document.getElementById("p").value;

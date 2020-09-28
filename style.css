@@ -28,20 +28,51 @@ body{
 	background-color:#F5D0A9;
 	 box-shadow:2px 3px 15px #424242;
   width: 900px;
-  height:1200px;
+  height:2000px;
   padding: 50px;
   margin: 20px;
 }
-.inp{
+.inputs{
 position: absolute;
 top: 50px;
 left: 50px;
 background-color:#FE9A2E;
 padding:5px;
 }
-.inq{
+.checkprime{
 	position: absolute;
 top: 50px;
+left: 500px;
+background-color:#FE9A2E;
+color:white;
+text-shadow: 2px 3px 5px black;
+border:none;
+padding:5px 10px;	
+ box-shadow:2px 3px 10px #424242;
+  border: 2px solid #6E6E6E;
+}
+.prime p{
+	position: absolute;
+top: 90px;
+left: 50px;
+font-size: 40px;
+	background-color: #01DF74;
+	color:white;
+text-shadow: 2px 3px 5px black;
+border:none;
+padding:1px 5px;
+ box-shadow:2px 3px 10px #424242;
+}
+.inp{
+position: absolute;
+top: 200px;
+left: 50px;
+background-color:#FE9A2E;
+padding:5px;
+}
+.inq{
+	position: absolute;
+top: 200px;
 left: 480px;
 background-color:#FE9A2E;
 padding:5px;
@@ -52,7 +83,7 @@ padding:5px;
 }
 .mul{
 	position: absolute;
-top: 130px;
+top: 280px;
 left: 320px;
 background-color:#FE9A2E;
 color:white;
@@ -64,7 +95,7 @@ padding:5px 10px;
 }
 .note p{
 	position: absolute;
-top: 160px;
+top: 310px;
 left: 50px;
 font-size: 40px;
 background-color:#FF0000;
@@ -76,7 +107,7 @@ padding:1px 5px;
 }
 .N p{
 	position: absolute;
-top: 240px;
+top: 390px;
 left: 50px;
 font-size: 40px;
 	background-color: #01DF74;
@@ -88,7 +119,7 @@ padding:1px 5px;
 }
 .R p{
 	position: absolute;
-top: 300px;
+top: 450px;
 left: 50px;
 font-size: 40px;
 	background-color: #01DF74;
@@ -100,7 +131,7 @@ padding:1px 5px;
 }
 .E p{
 	position: absolute;
-top: 380px;
+top: 530px;
 left: 50px;
 font-size: 40px;
 	background-color:#FF0000;
@@ -112,14 +143,14 @@ padding:1px 5px;
 }
 .ine{
 	position: absolute;
-top: 490px;
+top: 640px;
 left: 250px;
 background-color:#FE9A2E;
 padding:5px;
 }
 .check{
 	position: absolute;
-top: 570px;
+top: 720px;
 left: 100px;
 background-color:#FE9A2E;
 color:white;
@@ -131,7 +162,7 @@ padding:5px 10px;
 }
 .pr p{
 	position: absolute;
-top: 630px;
+top: 780px;
 left: 50px;
 font-size: 40px;
 	background-color:#01DF74;
@@ -143,7 +174,7 @@ padding:1px 5px;
 }
 .generated{
 	position: absolute;
-top: 750px;
+top: 900px;
 left: 330px;
 background-color:#FE9A2E;
 color:white;
@@ -155,7 +186,7 @@ padding:5px 10px;
 }
 .D p{
 	position: absolute;
-top: 805px;
+top: 955px;
 left: 50px;
 font-size: 40px;
 	background-color:#01DF74;
@@ -165,16 +196,16 @@ border:none;
 padding:1px 5px;
  box-shadow:2px 3px 10px #424242;
 }
-.msg1{position: absolute;top: 950px;left: 20px;background-color:#FE9A2E;padding:5px;}.msg1 input{ width : 80px;}
-.msg2{position: absolute;top: 950px;left: 100px;background-color:#FE9A2E;padding:5px;}.msg2 input{width : 80px;}
-.msg3{position: absolute;top: 950px;left: 180px;background-color:#FE9A2E;padding:5px;}.msg3 input{width : 80px;}
-.msg4{position: absolute;top: 950px;left: 260px;background-color:#FE9A2E;padding:5px;}.msg4 input{width : 80px;}
-.msg5{position: absolute;top: 950px;left: 340px;background-color:#FE9A2E;padding:5px;}.msg5 input{width : 80px;}
-.msg6{position: absolute;top: 950px;left: 420px;background-color:#FE9A2E;padding:5px;}.msg6 input{width : 80px;}
-.msg7 {position: absolute;top: 950px;left: 500px; background-color:#FE9A2E;padding:5px;}.msg7 input{width : 80px;}
+.msg1{position: absolute;top: 1100px;left: 20px;background-color:#FE9A2E;padding:5px;}.msg1 input{ width : 80px;}
+.msg2{position: absolute;top: 1100px;left: 100px;background-color:#FE9A2E;padding:5px;}.msg2 input{width : 80px;}
+.msg3{position: absolute;top: 1100px;left: 180px;background-color:#FE9A2E;padding:5px;}.msg3 input{width : 80px;}
+.msg4{position: absolute;top: 1100px;left: 260px;background-color:#FE9A2E;padding:5px;}.msg4 input{width : 80px;}
+.msg5{position: absolute;top: 1100px;left: 340px;background-color:#FE9A2E;padding:5px;}.msg5 input{width : 80px;}
+.msg6{position: absolute;top: 1100px;left: 420px;background-color:#FE9A2E;padding:5px;}.msg6 input{width : 80px;}
+.msg7 {position: absolute;top: 1100px;left: 500px; background-color:#FE9A2E;padding:5px;}.msg7 input{width : 80px;}
 /*.msg8{position: absolute;top: 950px;left: 580px;background-color:#FE9A2E;padding:5px;}.msg8 input{width : 80px;}*/
 .msg9 p{
-position: absolute;top: 910px;left: 620px;font-size: 40px;
+position: absolute;top: 1060px;left: 620px;font-size: 40px;
 background-color:#FF0000;
 color:white;
 text-shadow: 2px 3px 5px black;
@@ -185,7 +216,7 @@ padding:1px 5px;
  }
 .en{
 	position: absolute;
-top: 1050px;
+top: 1200px;
 left: 300px;
 background-color:#FE9A2E;
 color:white;
@@ -197,7 +228,7 @@ padding:5px 10px;
 }
 .cipher p{
 	position: absolute;
-top: 1100px;
+top: 1250px;
 left: 50px;
 font-size: 40px;
 	background-color:#01DF74;
@@ -209,7 +240,7 @@ padding:1px 5px;
 }
 .dc{
 	position: absolute;
-top: 1050px;
+top: 1200px;
 left: 450px;
 background-color:#FE9A2E;
 color:white;
@@ -221,7 +252,7 @@ padding:5px 10px;
 }
 .decrypt p{
 	position: absolute;
-top: 1170px;
+top: 1320px;
 left: 50px;
 font-size: 40px;
 	background-color:#01DF74;
@@ -233,7 +264,7 @@ padding:1px 5px;
 }
 .footer {
 	position:absolute;
-	top:1550px;
+	top:2350px;
 	width:1409px;
 	  padding: 100px; /* Some padding */
 	  text-align: center; /* Center text*/

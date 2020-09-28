@@ -13,12 +13,16 @@
 <h3>By Nowshin Nawar</h3>
 </div>
 <div class ="cal">
-<!-- inputs p & q-->
 <div class = "inputs">
+<input type="text" name="num" id = "num" placeholder="Enter a number" size="15"></div>
+ <input class = "checkprime" type="button" value="Check it's Prime or not" onclick="checkPrime1()">
+ <div class = "prime"><p><span id = "prime"></span></p></div>
+
+<!-- inputs p & q-->
  <div class = "inp"><input type="text" name="p" id = "p" placeholder="Enter P" size="15"></div>
  <div class ="inq"><input type="text" name="q" id = "q" placeholder="Enter Q" size="15"></div>
  <input class = "mul" type="button" value="SET P & Q" onclick="multiply()">
- </div>
+
  <div class = "note">
  <p>note: P & Q must be prime numbers</p></div>
  <!-- output N-->
