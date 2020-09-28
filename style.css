@@ -27,7 +27,7 @@ body{
 	left: 300px;
 	background-color:#F5D0A9;
 	 box-shadow:2px 3px 15px #424242;
-  width: 830px;
+  width: 900px;
   height:1200px;
   padding: 50px;
   margin: 20px;
@@ -162,13 +162,24 @@ border:none;
 padding:1px 5px;
  box-shadow:2px 3px 10px #424242;
 }
-.msg{
-	position: absolute;
-top: 950px;
-left: 250px;
-background-color:#FE9A2E;
-padding:5px;
-}
+.msg1{position: absolute;top: 950px;left: 20px;background-color:#FE9A2E;padding:5px;}.msg1 input{ width : 80px;}
+.msg2{position: absolute;top: 950px;left: 100px;background-color:#FE9A2E;padding:5px;}.msg2 input{width : 80px;}
+.msg3{position: absolute;top: 950px;left: 180px;background-color:#FE9A2E;padding:5px;}.msg3 input{width : 80px;}
+.msg4{position: absolute;top: 950px;left: 260px;background-color:#FE9A2E;padding:5px;}.msg4 input{width : 80px;}
+.msg5{position: absolute;top: 950px;left: 340px;background-color:#FE9A2E;padding:5px;}.msg5 input{width : 80px;}
+.msg6{position: absolute;top: 950px;left: 420px;background-color:#FE9A2E;padding:5px;}.msg6 input{width : 80px;}
+.msg7 {position: absolute;top: 950px;left: 500px; background-color:#FE9A2E;padding:5px;}.msg7 input{width : 80px;}
+.msg8{position: absolute;top: 950px;left: 580px;background-color:#FE9A2E;padding:5px;}.msg8 input{width : 80px;}
+.msg9 p{
+position: absolute;top: 910px;left: 620px;font-size: 40px;
+background-color:#FF0000;
+color:white;
+text-shadow: 2px 3px 5px black;
+border:none;
+padding:1px 5px;
+ box-shadow:2px 3px 10px #424242;
+ margin-right:10px;
+ }
 .en{
 	position: absolute;
 top: 1050px;

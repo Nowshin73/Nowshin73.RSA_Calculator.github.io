@@ -56,19 +56,43 @@ function generateD(){
     document.getElementById("demsg").innerHTML = z;
 }*/
 
- function acii(){
+ function acii(msg){
 	p = document.getElementById("p").value;
        q = document.getElementById("q").value;
+	   e = document.getElementById("e").value;
        n = p * q;
-	s = document.getElementById("msg").value;
+	   s = msg;
       for(i=0; i < s.length ;i++){
 		m = s.charCodeAt(i);
 		c = PowerMod(m,e,n);
-       document.getElementById("demsg").innerHTML = c;	
-       /*document.getElementById("asc").innerHTML = m;*/
+       /*document.getElementById("demsg").innerHTML = c;	
+      document.getElementById("asc").innerHTML = m;*/
 	  }
-        	   
-	}
+	 	return c; 
+}
+function encrypt(){
+if(msg1 = document.getElementById("msg1").value){
+   document.getElementById("demsg1").innerHTML = acii(msg1);
+   } 
+if(msg2 = document.getElementById("msg2").value){
+	   document.getElementById("demsg2").innerHTML =acii(msg2);
+}
+if( msg3 = document.getElementById("msg3").value){
+	   document.getElementById("demsg3").innerHTML =acii(msg3);
+}
+if(msg4 = document.getElementById("msg4").value){
+	  document.getElementById("demsg4").innerHTML = acii(msg4);
+}
+if( msg5 = document.getElementById("msg5").value){
+	   document.getElementById("demsg5").innerHTML =acii(msg5);
+}
+if(msg6 = document.getElementById("msg6").value){
+	  document.getElementById("demsg6").innerHTML = acii(msg6);
+}
+if( msg7 = document.getElementById("msg7").value){
+	   document.getElementById("demsg7").innerHTML =acii(msg7);
+}
+}
 
 function PowerMod(x,p,N)
 		// Compute x^p mod N
@@ -88,19 +112,54 @@ function PowerMod(x,p,N)
 			}			
 			return A
 		}
-function decrypt(){
+function decrypt(cipher){
 			p = document.getElementById("p").value;
        q = document.getElementById("q").value;
 	    e = document.getElementById("e").value;
 		 n = p * q;
        r = (p-1)*(q-1);
 	   d = inverseMulti( e,r);
-	   for(i=0; i < s.length ;i++){
+	   /*for(i=0; i < s.length ;i++){
 		m = s.charCodeAt(i);
-		c = PowerMod(m,e,n);
+		c = PowerMod(m,e,n);*/
+		c = cipher;
+		
         ascii = PowerMod(c,d,n);
 		message = String.fromCharCode(ascii);
-        }	 
-	  /* document.getElementById("lemsg").innerHTML = ascii;*/
-	   document.getElementById("themsg").innerHTML = message;
+         
+	  /* document.getElementById("lemsg").innerHTML = ascii;
+	   document.getElementById("themsg").innerHTML = message;*/
+	   return message;
 		}
+function decryption(){
+	if(msg1 = document.getElementById("msg1").value){
+		m1 = acii(msg1);
+		document.getElementById("themsg1").innerHTML = decrypt(m1);	
+	}
+	if(msg2 = document.getElementById("msg2").value){
+		m2 = acii(msg2);
+			document.getElementById("themsg2").innerHTML = decrypt(m2);
+	}
+	if(msg3 = document.getElementById("msg3").value){
+		m3 = acii(msg3);
+		document.getElementById("themsg3").innerHTML = decrypt(m3);
+	}
+	if(msg4 = document.getElementById("msg4").value){
+		m4 = acii(msg4);
+		document.getElementById("themsg4").innerHTML = decrypt(m4);
+	}
+	if(msg5 = document.getElementById("msg5").value){
+		m5 = acii(msg5);
+	    document.getElementById("themsg5").innerHTML = decrypt(m5);	
+	}
+	if(msg6 = document.getElementById("msg6").value){
+		m6 = acii(msg6);
+		document.getElementById("themsg6").innerHTML = decrypt(m6);
+	}
+	if(msg7 = document.getElementById("msg7").value){
+		m7 = acii(msg7);
+		document.getElementById("themsg7").innerHTML = decrypt(m7);
+	}
+	
+	
+}
