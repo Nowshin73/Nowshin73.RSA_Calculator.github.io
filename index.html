@@ -7,11 +7,13 @@
  <script type="text/javascript" src="java.js"></script>
  </head>
 <body>
+<!--head-->
 <div class = "head">
 <h1>RSA Calculator</h1>
 <h3>By Nowshin Nawar</h3>
 </div>
 <div class ="cal">
+<!-- inputs p & q-->
 <div class = "inputs">
  <div class = "inp"><input type="text" name="p" id = "p" placeholder="Enter P" size="15"></div>
  <div class ="inq"><input type="text" name="q" id = "q" placeholder="Enter Q" size="15"></div>
@@ -19,27 +21,32 @@
  </div>
  <div class = "note">
  <p>note: P & Q must be prime numbers</p></div>
+ <!-- output N-->
  <div class = "N"><p>N = P*Q = <span id = "n"></span></p></div>
  <div>
-<!--<span id = "n"></span>-->
 </div>
+<!-- output R-->
 <div class = "R">
 <p>So, R = (P-1)*(Q-1) = <span id = "r"></span></p></div>
 <div class = "E"><p>Select E such that GCD(E,R) = 1</p>
 </div>
+<!-- check input E-->
 <div class = "ine"><input type="text" name="p" id = "e" placeholder="Enter E" size="15"></div>
 <input type="button" class = "check" value="Check E is relative prime of R or not" onclick="checkE()">
-  
+  <!-- output E is relative prime of R or not-->
 <div class = "pr">
 <p><span id = "m"></span></p>
 </div>
+<!-- button genetare D-->
  <input type="button" class ="generated" value="Generate D" onclick="generateD()">
+ <!-- output D-->
  <div class = "D">
 	  <p>
 	 <span id = "d"></span></br>
 	 <span id = "no"></span>
 	 </p>
  </div>
+ <!-- Enter a message-->
  <div class ="msg1"><input type="text" name="q" id = "msg1" placeholder="" size="15"></div>
  <div class ="msg2"><input type="text" name="q" id = "msg2" placeholder="" size="15"></div>
  <div class ="msg3"><input type="text" name="q" id = "msg3" placeholder="" size="15"></div>
@@ -47,16 +54,15 @@
  <div class ="msg5"><input type="text" name="q" id = "msg5" placeholder="" size="15"></div>
  <div class ="msg6"><input type="text" name="q" id = "msg6" placeholder="" size="15"></div>
  <div class ="msg7"><input type="text" name="q" id = "msg7" placeholder="" size="15"></div>
- <!--<div class ="msg8"><input type="text" name="q" id = "msg" placeholder="" size="15"></div>-->
  <div class ="msg9"><p>Enter a message.</br>
                      Fill each box with a letter.</p></div>
+<!-- buttons for encryption and decryption-->
  <input type="button" class = "en" value="Encript" onclick="encrypt()">
  <input type="button" class = "dc" value="Decript" onclick="decryption()">
+ <!-- output cipher text-->
  <div class = "cipher"><p> Cipher text :  <span id = "demsg1"></span> <span id = "demsg2"></span> <span id = "demsg3"></span> <span id = "demsg4"></span>
   <span id = "demsg5"></span> <span id = "demsg6"></span> <span id = "demsg7"></span></p></div>
- <!--<span id = "asc">
- 
- </span>-->
+  <!--output mesage-->
  <div class = "decrypt">
  <p> After Decryption, we get : <!--<span id = "lemsg">
  </span>-->

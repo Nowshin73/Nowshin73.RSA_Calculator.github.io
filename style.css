@@ -57,7 +57,7 @@ left: 320px;
 background-color:#FE9A2E;
 color:white;
 text-shadow: 2px 3px 5px black;
- border: 2px solid #ccc;
+border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
 }
@@ -123,7 +123,7 @@ left: 100px;
 background-color:#FE9A2E;
 color:white;
 text-shadow: 2px 3px 5px black;
- border: 1px solid #ccc;
+border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
 }
@@ -146,7 +146,7 @@ left: 330px;
 background-color:#FE9A2E;
 color:white;
 text-shadow: 2px 3px 5px black;
- border: 1px solid #ccc;
+border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
 }
@@ -169,7 +169,7 @@ padding:1px 5px;
 .msg5{position: absolute;top: 950px;left: 340px;background-color:#FE9A2E;padding:5px;}.msg5 input{width : 80px;}
 .msg6{position: absolute;top: 950px;left: 420px;background-color:#FE9A2E;padding:5px;}.msg6 input{width : 80px;}
 .msg7 {position: absolute;top: 950px;left: 500px; background-color:#FE9A2E;padding:5px;}.msg7 input{width : 80px;}
-.msg8{position: absolute;top: 950px;left: 580px;background-color:#FE9A2E;padding:5px;}.msg8 input{width : 80px;}
+/*.msg8{position: absolute;top: 950px;left: 580px;background-color:#FE9A2E;padding:5px;}.msg8 input{width : 80px;}*/
 .msg9 p{
 position: absolute;top: 910px;left: 620px;font-size: 40px;
 background-color:#FF0000;
@@ -187,7 +187,7 @@ left: 300px;
 background-color:#FE9A2E;
 color:white;
 text-shadow: 2px 3px 5px black;
- border: 1px solid #ccc;
+border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
 }
@@ -210,7 +210,7 @@ left: 450px;
 background-color:#FE9A2E;
 color:white;
 text-shadow: 2px 3px 5px black;
- border: 1px solid #ccc;
+border:none;
 padding:5px 10px;	
  box-shadow:2px 3px 10px #424242;
 }
