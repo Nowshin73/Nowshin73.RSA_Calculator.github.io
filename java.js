@@ -58,7 +58,7 @@ function generateD(){
 	    e = document.getElementById("e").value;
        r = (p-1)*(q-1);
     prime = gcd(e,r);
-	if( prime == 1 && ){
+	if( prime == 1 ){
 		D = inverseMulti( e,r);
 		if( D < r){
 		document.getElementById("d").innerHTML = D;
