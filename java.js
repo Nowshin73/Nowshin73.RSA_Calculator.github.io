@@ -58,8 +58,11 @@ function generateD(){
 	    e = document.getElementById("e").value;
        r = (p-1)*(q-1);
     prime = gcd(e,r);
-	if( prime == 1){
-		document.getElementById("d").innerHTML = inverseMulti( e,r);
+	if( prime == 1 && ){
+		D = inverseMulti( e,r);
+		if( D < r){
+		document.getElementById("d").innerHTML = D;
+		}
 	}
 	else {
 	document.getElementById("no").innerHTML = "E is not relative prime of R, D cannot be generated";
